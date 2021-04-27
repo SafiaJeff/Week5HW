@@ -1,4 +1,16 @@
+
+// GSAP Imports
 import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+gsap.registerPlugin(GSDevTools);
 
+// // My Imports
+// import { zoomTL } from "./zoomIn";
 
-gsap.to("#Cow",{scale:5, alpha:0, duration:5});
+// // Main Timeline
+// let mainTL = gsap.timeline();
+
+// mainTL.add(zoomTL);
+
+// // DEV Tools
+// GSDevTools.create();
