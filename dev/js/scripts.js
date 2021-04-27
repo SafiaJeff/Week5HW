@@ -4,13 +4,13 @@ import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(GSDevTools);
 
-// // My Imports
-// import { zoomTL } from "./zoomIn";
+// My Imports
+import { zoomTL } from "./zoomIn";
 
-// // Main Timeline
-// let mainTL = gsap.timeline();
+// Main Timeline
+let mainTL = gsap.timeline();
 
-// mainTL.add(zoomTL);
+mainTL.add(zoomTL);
 
-// // DEV Tools
-// GSDevTools.create();
+// DEV Tools
+GSDevTools.create();
