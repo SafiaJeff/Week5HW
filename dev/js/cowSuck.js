@@ -15,6 +15,6 @@ cowSuckTL
 .to("#alienEnergy path",{duration: 2, stagger: .25, display:"block", scale:1, ease: "elastic.out(1, 0.2)"}, "-=.75")
 .to("#Cow",{duration:4, scale:.5, opacity:0, rotate: 360, x:"+=200", y:"-=200"}, "-=.75")
 .to("#alienEnergy path",{duration: .5, stagger: .25, display:"none", scale:0}, "-=1")
-.to("#SpaceshipAlien",{duration:3, y:"+=200", ease: "elastic.out(1, 0.5)"})
+.to("#SpaceshipAlien",{duration:3, y:"+=300", ease: "elastic.out(1, 0.5)"})
 
 ;
