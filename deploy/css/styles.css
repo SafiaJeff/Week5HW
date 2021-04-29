@@ -436,3 +436,6 @@ textarea {
 #svg-container > div svg {
   width: 100%;
 }
+#svg-container #Flower1 {
+  z-index: -200;
+}
