@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 
 export let midAppearTL = gsap.timeline();
 
+gsap.set("#Cow",{transformOrigin:"center center"});
 gsap.set("#Flowers g",{transformOrigin:"center bottom"});
 // gsap.set("#CowTail",{transformOrigin:"right top"});
 
