@@ -12,6 +12,8 @@ zoomTL
 .from("#LBush",{duration:1.5, x:-500},"Bushes")
 .from("#RBush",{duration:1.5, x:1050}, "Bushes")
 
-//how also put early delay on bushes?
+
 
     ;
+
+

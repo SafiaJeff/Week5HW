@@ -10,3 +10,6 @@ midAppearTL
 .from("#Cow",{duration:3, scale:3, x:-1000, ease:"steps(8)"}, "-=3.5")
 // .to("#CowTail",{duration:2, scaleY: .75, rotate: 20, yoyo:2})
     ;
+
+    
+

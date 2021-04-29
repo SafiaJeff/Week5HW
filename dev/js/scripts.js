@@ -15,7 +15,7 @@ let mainTL = gsap.timeline();
 
 mainTL.add(zoomTL);
 mainTL.add(midAppearTL, "-=3");
-mainTL.add(skyStartTL, "-=2.5");
+mainTL.add(skyStartTL, "-=3.5");
 
 
 // DEV Tools
