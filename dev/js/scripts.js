@@ -7,13 +7,16 @@ gsap.registerPlugin(GSDevTools);
 // My Imports
 import { zoomTL } from "./zoomIn";
 import { midAppearTL } from "./midAppear";
+import { skyStartTL } from "./skyStart";
 
 
 // Main Timeline
 let mainTL = gsap.timeline();
 
 mainTL.add(zoomTL);
-mainTL.add(midAppearTL, "-=3");
+mainTL.add(midAppearTL, "-=4");
+mainTL.add(skyStartTL, "-=3.5");
+
 
 // DEV Tools
 GSDevTools.create();
