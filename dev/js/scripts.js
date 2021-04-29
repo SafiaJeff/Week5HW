@@ -13,7 +13,7 @@ import { midAppearTL } from "./midAppear";
 let mainTL = gsap.timeline();
 
 mainTL.add(zoomTL);
-mainTL.add(midAppearTL);
+mainTL.add(midAppearTL, "-=3");
 
 // DEV Tools
 GSDevTools.create();
