@@ -14,7 +14,7 @@ import { skyStartTL } from "./skyStart";
 let mainTL = gsap.timeline();
 
 mainTL.add(zoomTL);
-mainTL.add(midAppearTL, "-=3");
+mainTL.add(midAppearTL, "-=4");
 mainTL.add(skyStartTL, "-=3.5");
 
 
