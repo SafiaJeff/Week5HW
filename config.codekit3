@@ -9,6 +9,78 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/content/svg-container.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg-container.html",
+		"oF": 0
+		},
+	"/content/svg/background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/background.html",
+		"oF": 0
+		},
+	"/content/svg/foreground.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground.html",
+		"oF": 0
+		},
+	"/content/svg/foreground/front/front.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground/front/front.html",
+		"oF": 0
+		},
+	"/content/svg/foreground/middle/mtn-front-left.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground/middle/mtn-front-left.html",
+		"oF": 0
+		},
+	"/content/svg/foreground/middle/mtn-front-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground/middle/mtn-front-right.html",
+		"oF": 0
+		},
+	"/content/svg/foreground/middle/orange-mtn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground/middle/orange-mtn.html",
+		"oF": 0
+		},
+	"/content/svg/foreground/middle/red-mtn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/foreground/middle/red-mtn.html",
+		"oF": 0
+		},
+	"/content/svg/moon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/svg/moon.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,63 +110,31 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/svg-container.kit": {
+	"/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg-container.html",
+		"oAP": "/global/head.html",
 		"oF": 0
 		},
-	"/dev/content/svg/background.kit": {
+	"/global/scripts.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg/background.html",
+		"oAP": "/global/scripts.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground.kit": {
+	"/gsap-bonus.tgz": {
 		"cB": 0,
-		"ft": 2048,
+		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground.html",
+		"oA": 0,
+		"oAP": "/gsap-bonus.tgz",
 		"oF": 0
 		},
-	"/dev/content/svg/middleground.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/middleground.html",
-		"oF": 0
-		},
-	"/dev/content/svg/sky.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/sky.html",
-		"oF": 0
-		},
-	"/dev/global/head.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/head.html",
-		"oF": 0
-		},
-	"/dev/global/scripts.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/scripts.html",
-		"oF": 0
-		},
-	"/dev/index.kit": {
+	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
@@ -102,40 +142,73 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/blastOff.js": {
+	"/js/demo-this.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/demo-this-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/fadeIn.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/blastOff-min.js",
+		"oAP": "/js/fadeIn-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/cowSuck.js": {
+	"/js/flightPath.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/cowSuck-min.js",
+		"oAP": "/js/flightPath-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/midAppear.js": {
+	"/js/landing.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/midAppear-min.js",
+		"oAP": "/js/landing-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts.js": {
+	"/js/liftOff.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/liftOff-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/moonZoom.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/moonZoom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
@@ -146,196 +219,32 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/skyStart.js": {
+	"/js/space-ship.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/skyStart-min.js",
+		"oAP": "/js/space-ship-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/zoomIn.js": {
+	"/js/zoomIn.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/zoomIn-min.js",
+		"oAP": "/js/zoomIn-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/dev/scss/base/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/base/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/base/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/helpers/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/helpers/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_svg-container.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_svg-container.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
-		"oS": 0,
-		"sct": 0
-		},
-	"/gsap-bonus.tgz": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/gsap-bonus.tgz",
-		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
-		"oAP": "/node_modules",
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
 	"/node_modules/gsap/CSSPlugin.js": {
@@ -384,8 +293,164 @@
 		"oA": 1,
 		"oAP": "/package-min.json",
 		"oF": 0,
-		"oO": 1,
+		"oO": 0,
 		"oS": 1
+		},
+	"/scss/base/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/base/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/base/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/base/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/base/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/base/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/components/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/components/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/components/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/helpers/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/helpers/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/helpers/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/helpers/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/layout/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/layout/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/sections/_svg-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_svg-container.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 0
 		}
 	},
 "hooks": [
@@ -394,7 +459,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 639010553.72737396,
-	"displayValue": "SVG-Setup",
+	"displayValue": "hw03",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-peach",
 	"iconImageWasSetByUser": 0
@@ -1359,7 +1424,7 @@
 			},
 		"no-magic-numbers": {
 			"active": 0,
-			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
 			"active": 0,
@@ -1579,7 +1644,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1607,7 +1672,7 @@
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -1819,7 +1884,7 @@
 			},
 		"sort-imports": {
 			"active": 0,
-			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
 			},
 		"sort-keys": {
 			"active": 0,
@@ -2342,7 +2407,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"orderOutput": 1,
+		"orderOutput": 0,
 		"outputStyle": 1
 		},
 	"languageDefaultsKIT": {
@@ -2422,7 +2487,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
 		},

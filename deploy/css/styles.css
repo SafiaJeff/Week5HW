@@ -428,6 +428,11 @@ textarea {
     grid-template-columns: auto 60% auto;
   }
 }
+@media (min-width: 1200px) {
+  #svg-container {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #svg-container > div {
   display: flex;
   align-items: center;
@@ -435,7 +440,4 @@ textarea {
 }
 #svg-container > div svg {
   width: 100%;
-}
-#svg-container #Flower1 {
-  z-index: -200;
 }
